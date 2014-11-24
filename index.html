@@ -4,24 +4,28 @@
   <title>Bea's page</title>
 <link href='dist/css/bootstrap.css' rel='stylesheet'>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 </head>
 
 <style>
-h1 {font-size:25px;
+h1 {font-size:35px;
 	color:navy;
-font-size: 30px;}
+font-family: 'Inconsolata';}
 
 
 body {
 	background: lightblue;
 	text-align: center;
 	margin: 0 auto;
+  background-image: url("https://kalumatravel.files.wordpress.com/2013/03/special-offers-header-image.jpg");
+  background-size: cover;
 }
 
 img {
 height: 500px;
-width: 500px;}
+width: 500px;
+border-radius: 500px;}
 
 .navbar-header {
 	padding: 5px;
@@ -31,19 +35,39 @@ width: 500px;}
 }
 
 h2 {color:white;
-font-size:50px;}
+font-size:45px;
+font-family: 'Inconsolata';}
 
-h3 {color:white;}
+h4 {color:white;
+font-size: 35px;
+background-color: navy;}
 
-p {font-size: 20px;}
+p {font-size: 20px;
+font-family: 'Inconsolata';
+background-color: white;}
 
+small { font-size: 20px;
+font-family: 'Poiret One', cursive;}
+
+li {display: inline;
+  padding: 0px 10px 0px 10px;
+text-align: center;
+font-family: 'Inconsolata';}
+
+.Middle {color:navy;
+}
 </style>
 
 <body>
+
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
 <div class="navbar-header">
-    <ul class="nav navbar-nav navbar-right"> </ul>
+    <ul class="nav navbar-nav navbar-right"> 
+  <li>Home </li>
+  <li> Blog </li>
+  <li> Me </li>
+</ul>
   </div>
 </div>
 </nav>
@@ -54,28 +78,24 @@ p {font-size: 20px;}
 
 <div class="row">
 <div class="col-sm-8" id="home"> </div>
-<h1>Beatrice Farmelo: This is the story of my gap year.</h1>
+<h1>Beatrice Farmelo: My Gap Year.</h1>
 </div>
 
-<div class="col-sm-4">
-    <img src='https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/68981_10152551878399545_6060616998123759564_n.jpg?oh=961f2f60e283024b7a849594b4c36f33&oe=54E427D9&__gda__=1427240676_6503def106c71e07f7f4a6e584b53b9e' class="img-responsive" alt="Responsive image">
-</div>
-</div>
     <form role='form'>
       <label for="email">Find out more about my travels by emailing me</label>
       <input type="text" name="email" >
-      <button class='btn btn-success'>Send</button>
+      <button class='btn btn-success'>Send email</button>
     </form>
   </div>
 
 
 
-    <h2><small>My Gap Year</small><br/>What did I do?</h2>
+    <h1><small>What did I do?<small></h1>
 
   <div class='row'>
   <div class='col-sm-4'>
     <div>
-      <img src='http://upload.wikimedia.org/wikipedia/commons/e/ea/Freestyle_skiing_jump2.jpg' class='img-circle center-block'>
+      <img src='http://upload.wikimedia.org/wikipedia/commons/e/ea/Freestyle_skiing_jump2.jpg' style="padding:1px;border:20px solid navy;">
       <blockquote><p>I spent 5 months working in a French hotel. I went out skiing in the days and worked as a waitress and housekeeper.</p>
       <small>Ski Season, France</small></blockquote>
     </div>
@@ -83,8 +103,8 @@ p {font-size: 20px;}
 
   <div class='col-sm-4'>
     <div>
-      <img src='http://www.adventurouskate.com/wp-content/uploads/2011/02/IMG_1387.jpg' class='img-circle center-block'>
-      <blockquote><p>I travelled around Thailand and Vietnam using public transport such as trains and buses</p>
+      <img src='http://www.adventurouskate.com/wp-content/uploads/2011/02/IMG_1387.jpg' style="padding:1px;border:20px solid white;">
+      <blockquote><p class="Middle">I travelled around Thailand and Vietnam using public transport such as trains and buses.</p>
       <small>South East Asia</small></blockquote>
     </div>
   </div>
@@ -92,7 +112,7 @@ p {font-size: 20px;}
 
   <div class='col-sm-4'>
     <div>
-      <img src='http://www.canuckabroad.com/places/wp-content/uploads/2013/10/bendy-road-in-queenstown-new-zealand-17669-1920x1200.jpg' class='img-circle center-block'>
+      <img src='http://www.canuckabroad.com/places/wp-content/uploads/2013/10/bendy-road-in-queenstown-new-zealand-17669-1920x1200.jpg' style="padding:1px;border:20px solid navy;">
       <blockquote><p>Both in Austraila and New Zealand, I hired out a van with my friends from school and travelled.</p>
         <small>Australia and New Zealand</small></blockquote>
     </div> 
@@ -103,11 +123,11 @@ p {font-size: 20px;}
 
   <div id="mission" class="lead">
   <div class="container">
-    <h3><small>Where do I want to go now?</small><br />Having enjoyed my gap year so much, I would like to take the opportunity after university to travel again</h3>
+    <h4> Where do I want to go now?<br /><small>Having enjoyed my gap year so much, I would like to take the opportunity after university to travel again<small></h4>
 
-  <p class="lead">We believe that healthy workers are more productive workers.</p>
-  <p class="lead">Providing your team with a healthy lunch each day improves both motivation and morale.</p>
-  <p class="lead">We deliver healthy sandwiches, made with the best ingredients, to your workplace every day.</p>
+  <p class="lead">I would like to travel to India, China and South America.</p>
+  <p class="lead">I would like the opportunity to do a ski season again, perhaps in Italy</p>
+  <p class="lead">Once I finish travelling, I would like to finally find a job!</p>
 
 
     <div id='social-buttons'>
